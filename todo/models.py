@@ -1,7 +1,5 @@
 from sqlalchemy import Column, Integer, String
 from .database import Base
-from sqlalchemy.orm import relationship
-
 
 class Todo(Base):
     __tablename__= 'todo'
